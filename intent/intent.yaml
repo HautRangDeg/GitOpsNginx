@@ -1,0 +1,8 @@
+service:
+  name: nginx
+  port: 80
+  protocol: tcp
+security:
+  default_policy: deny
+  allowed_ports:
+    - 80
