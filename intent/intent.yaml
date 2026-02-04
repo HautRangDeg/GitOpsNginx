@@ -7,3 +7,4 @@ security:
   allowed_ports:
     - 80
     - 22
+    - 443
