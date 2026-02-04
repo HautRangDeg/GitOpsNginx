@@ -1,7 +1,7 @@
 import yaml
 import subprocess
 
-with open("intent.yaml") as f:
+with open("../intent/intent.yaml") as f:
     intent = yaml.safe_load(f)
 
 allowed_ports = intent["security"]["allowed_ports"]
